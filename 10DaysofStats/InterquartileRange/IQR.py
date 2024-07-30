@@ -5,7 +5,8 @@ import random
 import re
 import sys
 
-# Function responsible for modulating quartile calculations.
+# Function responsible for modulating quartile calculations. Slightly improves space efficiency.
+# O(1) Time Complexity
 def quartile_calculation(bounds):
     if (len(bounds) % 2 == 0):
         # Even Set Count
@@ -24,6 +25,7 @@ def interQuartile(values, freqs):
     
     # Generate S array
     s = []
+    # O(2n) Time Complexity
     for i in range(0, data_size):
         value = values[i]
         frequency = freqs[i]
