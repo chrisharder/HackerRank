@@ -1,7 +1,7 @@
-TASK
+<b>TASK</b>\n
 The interquartile range of an array is the difference between its first (Q1) and third (Q3) quartiles. (i.e. Q3 - Q1)
 
-Given an array, 'values', of <i>n</i> integers and an array, 'freqs', representing the respective frequencies of 'value''s elements, construct a data set, 'S', where each 'values[i]' occurs at frequency 'freqs[i]'.
+Given an array, <i>values</i>, of <i>n</i> integers and an array, 'freqs', representing the respective frequencies of 'value''s elements, construct a data set, 'S', where each 'values[i]' occurs at frequency 'freqs[i]'.
 Then calculate and print S's interquartile range, rounded to a scale of 1 decimal place. (i.e. 12.3)
 
 Tip: Be careful not to use integer division when averaging the middle two elements for a data set with an even number of elements, and be sure to not include the median in your upper and lower data sets. 
